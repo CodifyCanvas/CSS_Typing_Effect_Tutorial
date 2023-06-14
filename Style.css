@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
+/* This import only for Font */
+
+body{
+  background-image: url('images/circles.png');
+  background-color: black;
+  padding-top: 400px;
+  font-family: poppins;
+}
+  .container{
+    display: grid;
+    place-items: center;
+  }
+  .text {
+    width: 41ch; 
+    animation: typing 2.5s steps(35), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+    color: #fff;
+  }
+  /* Now its time to add Keyframes */
+    @keyframes typing{
+      from{
+        width: 0;
+      }
+    }
+    @keyframes blink{
+      50%{
+        border-color: transparent;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
